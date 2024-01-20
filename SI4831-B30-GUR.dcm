@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI4831-B30-GUR
+D RF Receiver FM/AM with mechanical tuning/stereo
+K
+F https://www.mouser.com/datasheet/2/472/Si4831_35_B30-2507341.pdf
+$ENDCMP
+#
+#End Doc Library
