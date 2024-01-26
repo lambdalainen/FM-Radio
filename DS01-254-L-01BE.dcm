@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS01-254-L-01BE
+D DIP Switches / SIP Switches DIP Switch, SPST, 2.54 pitch, raised actuator, flat bottom, long pin, 1 position, Blue
+K
+F https://www.cuidevices.com/product/resource/ds01-254.pdf
+$ENDCMP
+#
+#End Doc Library
