@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-.327-12.5-34B-TR
+D Crystals 32.768KHz 20ppm 12.5pF -40C +85C
+K
+F http://www.mouser.com/ds/2/122/ecx-31b-1108368.pdf
+$ENDCMP
+#
+#End Doc Library
