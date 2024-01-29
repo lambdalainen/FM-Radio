@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "FM Radio")(type "KiCad")(uri "/Users/lambdalainen/Desktop/FM Radio")(options "")(descr ""))
+  (lib (name "FM Radio")(type "KiCad")(uri "/Users/lambdalainen/Desktop/KiCad/FM Radio")(options "")(descr ""))
 )
