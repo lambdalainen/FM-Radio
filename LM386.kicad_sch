@@ -492,6 +492,8 @@
     (uuid 8c174e4d-afdb-4d9f-8915-9ec72c210f27)
   )
 
+  (no_connect (at 104.14 140.97) (uuid 0aaf0b18-058a-4153-9621-98725825e275))
+  (no_connect (at 104.14 87.63) (uuid 0bfa5fa8-91d8-4a13-9d1a-eae27b630940))
   (no_connect (at 133.35 105.41) (uuid ca02f398-8a90-44a1-a6b7-3fdd8cee02d4))
   (no_connect (at 133.35 52.07) (uuid d4e21dba-3eb6-4164-8574-c75cd6ae58a9))
 
@@ -502,10 +504,6 @@
   (wire (pts (xy 144.78 85.09) (xy 142.24 85.09))
     (stroke (width 0) (type default))
     (uuid 0aa5c642-85bd-4b3c-a1ca-d34537edf663)
-  )
-  (wire (pts (xy 104.14 87.63) (xy 104.14 91.44))
-    (stroke (width 0) (type default))
-    (uuid 0ba0fc71-bb8c-4654-81ea-b79420ebb934)
   )
   (wire (pts (xy 151.13 73.66) (xy 151.13 74.93))
     (stroke (width 0) (type default))
@@ -642,10 +640,6 @@
   (wire (pts (xy 130.81 67.31) (xy 130.81 69.85))
     (stroke (width 0) (type default))
     (uuid b037d2d0-3b68-4f36-9db0-f1fcc1ca3953)
-  )
-  (wire (pts (xy 104.14 140.97) (xy 104.14 144.78))
-    (stroke (width 0) (type default))
-    (uuid b335004d-e7dc-4dd5-b186-b9ef0a33a4ac)
   )
   (wire (pts (xy 144.78 74.93) (xy 144.78 85.09))
     (stroke (width 0) (type default))
@@ -1022,34 +1016,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 104.14 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 79069d81-8170-4d2c-8685-69ac01940023)
-    (property "Reference" "#PWR02" (at 104.14 151.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 104.14 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 104.14 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 104.14 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c1997ad5-7500-4473-80a7-97b39129b321))
-    (instances
-      (project "FM Radio"
-        (path "/d6e904b8-5922-4df1-ad6d-648c94b6d880"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/d6e904b8-5922-4df1-ad6d-648c94b6d880/7d060ee5-a7b5-4e8e-ad6b-b389d7669048"
-          (reference "#PWR031") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:PWR_FLAG") (at 138.43 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8582d15c-9dd6-4a3f-8b5f-0fed6ec96cbd)
@@ -1386,34 +1352,6 @@
       (project "FM Radio"
         (path "/d6e904b8-5922-4df1-ad6d-648c94b6d880/7d060ee5-a7b5-4e8e-ad6b-b389d7669048"
           (reference "#PWR015") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 104.14 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ed99847c-392b-426b-88c9-fa2fa7c7b368)
-    (property "Reference" "#PWR02" (at 104.14 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 104.14 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 104.14 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 104.14 91.44 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 058c348f-0c85-4ea7-89e4-8bca17232e02))
-    (instances
-      (project "FM Radio"
-        (path "/d6e904b8-5922-4df1-ad6d-648c94b6d880"
-          (reference "#PWR02") (unit 1)
-        )
-        (path "/d6e904b8-5922-4df1-ad6d-648c94b6d880/7d060ee5-a7b5-4e8e-ad6b-b389d7669048"
-          (reference "#PWR032") (unit 1)
         )
       )
     )
